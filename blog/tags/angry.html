@@ -1,3 +1,9 @@
+---
+extends: false
+listable: false
+
+---
+
 <!doctype html>
 <!-- https://github.com/paulirish/html5-boilerplate/blob/master/index.html -->
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -24,7 +30,7 @@
 
   <title></title>
   <meta name="description" content="">
-  <meta name="author" content="Daniel Alan Miller">
+  <meta name="author" content="">
 
   <!--  Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="">
@@ -48,6 +54,7 @@
     <div id="container" class="container">
             <div class="row-fluid">
           <header class="banner clearfix">
+            <div>
               <h1 class="title">Daniel Alan Miller</h1>
                 <h3>Thoughts</h3>            </div>
           </header>
@@ -56,6 +63,7 @@
             <ul>
               <li>Home</li>
               <li>Blog</li>
+              <li>CV</li>
             </ul>
           </nav>
 
@@ -91,6 +99,18 @@
     <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
   <![endif]-->
 
-      
+    <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+       change the UA-35747776-1 to be your site's ID -->
+<script>
+    var _gaq = [['_setAccount', ''], ['_trackPageview']];
+    (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+    })(document, 'script');
+</script>
+  
   </body>
 </html>
