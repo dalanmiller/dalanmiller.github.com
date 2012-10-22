@@ -1,6 +1,29 @@
-===
-title: BASIC blog excerpts feed
-extends: atom.j2
-excerpts_only: true
-listable: false
-===
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>
+        BASIC blog excerpts feed    </title>
+        <link href="blog/excerpts.xml" rel="self" />
+    
+        <link href="/"/>
+    
+        
+    <updated>2012-10-21T23:41:39Z</updated>
+
+    <id>/blog/excerpts.xml/</id>
+
+            <entry>
+            <title type="html">The first post?</title>
+            <author><name>Daniel Alan Miller</name></author>
+            <link href="/blog/post1.html"/>
+            <updated>2012-11-21T23:33:00Z</updated>
+            <published>2012-11-21T23:33:00Z</published>
+            <id>/blog/post1.html</id>
+                        <category   scheme="/blog/tags"
+                        term="win"
+                        label="Win" />
+            
+            <content type="html">
+                
+                            </content>
+        </entry>
+    </feed>

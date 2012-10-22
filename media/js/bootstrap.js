@@ -1398,7 +1398,7 @@
               , $href = /^#\w/.test(href) && $(href)
             return ( $href
               && $href.length
-              && [[ $href.position().top, href ]] ) || null
+              && /%24href.position%28%29.top%2C%20href ) || null
           })
           .sort(function (a, b) { return a[0] - b[0] })
           .each(function () {
