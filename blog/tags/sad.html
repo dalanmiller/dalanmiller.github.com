@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="/media/css/site.css">
   <link rel="stylesheet" href="/media/css/syntax.css">
   <link rel="stylesheet" href="/media/css/spacelab.min.css">
+  <link rel="stylesheet" href="/media/css/bootstrap-responsive.min.css">
   
     <!-- All JavaScript at the bottom, except for Modernizr which
         enables HTML5 elements & feature detects -->
@@ -44,33 +45,24 @@
     <script src="/media/js/bootstrap.min.js"></script>
     </head>
 <body id="sad">
-    <div id="container">
-            <div id="main" role="main">
+    <div id="container" class="container">
+            <div class="row-fluid">
           <header class="banner clearfix">
-          <h1>Daniel Alan Miller</h1>
-            <h3>Thoughts</h3>                              <nav class=main_nav>
-    <ul>
-                <li>
-            <a title="Home Page"
-                class="button white home"
-                href="/index.html">
-                Home
-            </a>
-        </li>        <li>
-            <a title="Blog"
-                class="button white blog"
-                href="/blog">
-                Blog
-            </a>
-        </li>        <li>
-            <a title="About"
-                class="button white about"
-                href="/about.html">
-                About
-            </a>
-        </li>    </ul>
-</nav>
-                    </header>
+              <h1 class="title">Daniel Alan Miller</h1>
+                <h3>Thoughts</h3>            </div>
+          </header>
+          
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>Blog</li>
+            </ul>
+          </nav>
+
+          
+      </div>
+
+    <div class="row-fluid">
           <section class="content">
           <section class="archives">
 <h1 class="tag title"></h1>
@@ -78,11 +70,15 @@
 </ul>
 </section>
           </section>
-      </div>
+    </div>
+
+    <div class="row-fluid">
+      <footer>
+        Powered by <a href="http://ringce.com/hyde">hyde</a>.
+      </footer>
+    </div>
       </div> <!--! end of #container -->
-  <footer>
-      Powered by <a href="http://ringce.com/hyde">hyde</a>.
-  </footer>
+
       <!-- Javascript at the bottom for fast page loading -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
