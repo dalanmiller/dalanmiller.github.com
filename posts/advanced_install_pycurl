@@ -1,0 +1,21 @@
+# Installing pycurl
+
+If you're like me and need to install pycurl and use some sort of self-compiled version of libcurl
+because for whatever reason the system supplied one is from five years back you need to do this.
+
+Install libcurl 
+
+```
+tar -xvzf libcurl* 
+cd libcurl*
+./configure --prefix=/path/to/custom/
+make
+make install
+```
+
+Install pycurl
+
+This part always gets me since sometimes packages require custom arguments that are unique to that package. In this 
+instance it's `--curl--config` which you can find by reading through pycurl's setup.py file. 
+
+`pip install pycurl --install-option="--curl-config=/path/to/custom/bin/curl-config"` 
