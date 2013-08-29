@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Oneliner on  </title>
-    <link>http://localhost:1313tags/oneliner/index.xml</link>
+    <link>http://dalanmiller.github.io/tags/oneliner/index.xml</link>
     <language>en-us</language>
     <author>Daniel Alan Miller</author>
     <rights>Copyright (c) 2008 - 2013, Daniel Alan Miller; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Advanced find and replace one liner</title>
-      <link>http://localhost:1313/post/advanced-find-replace</link>
+      <link>http://dalanmiller.github.io/post/advanced-find-replace</link>
       <pubDate>Thu, 29 Aug 2013 00:00:00 UTC</pubDate>
       <author>Daniel Alan Miller</author>
-      <guid>http://localhost:1313/post/advanced-find-replace</guid>
+      <guid>http://dalanmiller.github.io/post/advanced-find-replace</guid>
       <description>&lt;p&gt;This one-liner will move all files that meet a case-insensitive regular expression to the desired location and only update it if newer than the destination (via cp&amp;rsquo;s -u)&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;

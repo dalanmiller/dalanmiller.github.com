@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Thoughts on  </title>
-    <link>http://localhost:1313categories/thoughts/index.xml</link>
+    <link>http://dalanmiller.github.io/categories/thoughts/index.xml</link>
     <language>en-us</language>
     <author>Daniel Alan Miller</author>
     <rights>Copyright (c) 2008 - 2013, Daniel Alan Miller; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Advanced find and replace one liner</title>
-      <link>http://localhost:1313/post/advanced-find-replace</link>
+      <link>http://dalanmiller.github.io/post/advanced-find-replace</link>
       <pubDate>Thu, 29 Aug 2013 00:00:00 UTC</pubDate>
       <author>Daniel Alan Miller</author>
-      <guid>http://localhost:1313/post/advanced-find-replace</guid>
+      <guid>http://dalanmiller.github.io/post/advanced-find-replace</guid>
       <description>&lt;p&gt;This one-liner will move all files that meet a case-insensitive regular expression to the desired location and only update it if newer than the destination (via cp&amp;rsquo;s -u)&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;
@@ -25,10 +25,10 @@ find . -regextype &amp;lsquo;posix-extended&amp;rsquo; -iregex &amp;ldquo;.*.(jp
     
     <item>
       <title>init blog</title>
-      <link>http://localhost:1313/post/init-blog</link>
+      <link>http://dalanmiller.github.io/post/init-blog</link>
       <pubDate>Sun, 18 Aug 2013 00:00:00 UTC</pubDate>
       <author>Daniel Alan Miller</author>
-      <guid>http://localhost:1313/post/init-blog</guid>
+      <guid>http://dalanmiller.github.io/post/init-blog</guid>
       <description>&lt;p&gt;It&amp;rsquo;s about time that I got started blogging again.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s been a long time coming and I started out wanting to run my new blog site on &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyl&lt;/a&gt; or &lt;a href=&#34;http://ringce.com/hyde&#34;&gt;Hyde&lt;/a&gt; but I finally settled on the very nascent &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;Hugo&lt;/a&gt; to which I hope I can contribute. As well I will be writing a few articles on getting started with Hugo while also making the documentation better, because it needs some work.&lt;/p&gt;
